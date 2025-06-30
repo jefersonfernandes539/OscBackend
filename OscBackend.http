@@ -1,0 +1,6 @@
+@OscBackend_HostAddress = http://localhost:5180
+
+GET {{OscBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

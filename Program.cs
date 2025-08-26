@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:3000",
-                "https://oscfrontend-production.up.railway.app"
+                "https://redemobilize-backend.up.railway.app"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
